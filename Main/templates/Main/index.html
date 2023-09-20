@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'Main/css/style.css' %}">
+</head>
+<body>
+    <p>Це головна сторiнка</p>
+    <p>В нас є iншi сторiнки</p>
+    <a href="/author/">Сторiнка автора</a>
+    <a href="/book/">Сторiнка книги</a>
+    <img src="{% static 'Main/img/image1.jpg' %}" alt="a">
+    <img src="{% static 'Main/img/image2.jpg' %}" alt="b">
+    <img src="{% static 'Main/img/image3.jpg' %}" alt="c">
+    <img src="{% static 'Main/img/image4.jpg' %}" alt="d">
+</body>
+</html>

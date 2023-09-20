@@ -1,0 +1,11 @@
+p {
+    color: red;
+}
+
+img {
+    width: 150;
+    height: 175px;
+    border-radius: 6px;
+    border-color: red;
+    border: 2px solid red; 
+}
